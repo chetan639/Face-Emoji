@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+main{
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.website-heading{
+    text-align: center;
+    margin: 20px;
+}
+
+.main-heading{
+    text-align: center;
+    margin: 30px;
+}
+
+form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+img{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    width: 50%;
+}
+
+form input{
+    margin: 20px auto;
+
+}
+
+form button{
+    margin: 20px auto;
+    width: 30%;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Emojifier</title>
+</head>
+<body>
+    <h1 class="website-heading">Emojify Yourself!</h1>
+    <main>
+        <h1 class="main-heading">Upload File</h1>
+        <%= typeof msg != 'undefined' ? msg : '' %> 
+        <form action="/" method="post" enctype="multipart/form-data">
+            <!-- <label for="picture">Choose your picture:</label> -->
+            <input type="file" name="picture" id="picture">
+            <button type="submit">Submit</button>
+        </form>
+    
+        <!-- <img src="<%= typeof picture != 'undefined' ? picture : '' %>" alt="The uploaded picture"> -->
+        <img src="uploads/picture-1634061487453.png" alt="">
+    </main>
+    
+</body>
+</html>
